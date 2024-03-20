@@ -1,0 +1,17 @@
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\bin\Debug\net6.0-windows\Ass1.exe
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\bin\Debug\net6.0-windows\Ass1.deps.json
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\bin\Debug\net6.0-windows\Ass1.runtimeconfig.json
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\bin\Debug\net6.0-windows\Ass1.dll
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\bin\Debug\net6.0-windows\Ass1.pdb
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\obj\Debug\net6.0-windows\Ass1.csproj.AssemblyReference.cache
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\obj\Debug\net6.0-windows\Ass1.Form1.resources
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\obj\Debug\net6.0-windows\Ass1.csproj.GenerateResource.cache
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\obj\Debug\net6.0-windows\Ass1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\obj\Debug\net6.0-windows\Ass1.AssemblyInfoInputs.cache
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\obj\Debug\net6.0-windows\Ass1.AssemblyInfo.cs
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\obj\Debug\net6.0-windows\Ass1.csproj.CoreCompileInputs.cache
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\obj\Debug\net6.0-windows\Ass1.dll
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\obj\Debug\net6.0-windows\refint\Ass1.dll
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\obj\Debug\net6.0-windows\Ass1.pdb
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\obj\Debug\net6.0-windows\Ass1.genruntimeconfig.cache
+C:\Users\LCIUSER\source\repos\Ass1\Ass1\obj\Debug\net6.0-windows\ref\Ass1.dll
