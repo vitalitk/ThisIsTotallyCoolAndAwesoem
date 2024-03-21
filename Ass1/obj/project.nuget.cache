@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "OCuCFDYhCB3oe99xSyYn6bM6YiimWOPHdOK+8KTKOt0fEtGbI/smtYwxBhsY5vxq0e9s9Mru2GfC+nQJjkRBUg==",
+  "dgSpecHash": "igqaK+WK4i3X6txIgfEsR6xWUYj/WDClEr7OvtW7eJzMTDfKqvnUY+AaJ+LspRn3xnJp83xXSt8750pRultmvA==",
   "success": true,
   "projectFilePath": "C:\\Users\\LCIUSER\\source\\repos\\Ass1\\Ass1\\Ass1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\LCIUSER\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.28\\microsoft.windows.sdk.net.ref.10.0.22621.28.nupkg.sha512"
+  ],
   "logs": []
 }

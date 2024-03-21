@@ -134,7 +134,7 @@
             Controls.Add(leftBox);
             Controls.Add(calcBtn);
             Name = "Form1";
-            Text = "Form1";
+            Text = "calculator hehe";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();

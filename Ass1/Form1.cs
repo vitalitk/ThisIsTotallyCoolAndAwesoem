@@ -11,6 +11,8 @@ namespace Ass1
         public Form1()
         {
             InitializeComponent();
+            this.Text = "calculator hehe";
+            this.Icon = new Icon("C:/Users/LCIUSER/source/repos/Ass1/Ass1/icon.ico");
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -30,7 +32,7 @@ namespace Ass1
                 itsALabel.Text = sum.ToString();
                 theOperator.Text = "+";
             }
-            catch(Exception)
+            catch (Exception)
             {
                 itsALabel.Text = "Error! Did you use valid numbers?";
                 theOperator.Text = "?!";
@@ -97,7 +99,7 @@ namespace Ass1
                 itsALabel.Text = sum.ToString();
                 theOperator.Text = "/";
             }
-            catch(Exception)
+            catch (Exception)
             {
                 itsALabel.Text = "Error! Did you use valid numbers?";
                 theOperator.Text = "?!";
