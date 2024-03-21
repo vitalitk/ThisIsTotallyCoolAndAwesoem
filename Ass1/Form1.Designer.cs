@@ -66,6 +66,7 @@
             // itsALabel
             // 
             itsALabel.AutoSize = true;
+            itsALabel.ForeColor = Color.White;
             itsALabel.Location = new Point(255, 376);
             itsALabel.Name = "itsALabel";
             itsALabel.Size = new Size(138, 15);
@@ -111,6 +112,7 @@
             // 
             theOperator.AutoSize = true;
             theOperator.Font = new Font("Impact", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            theOperator.ForeColor = Color.White;
             theOperator.Location = new Point(317, 68);
             theOperator.Name = "theOperator";
             theOperator.Size = new Size(18, 20);
@@ -121,7 +123,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlDarkDark;
+            BackColor = Color.FromArgb(43, 37, 105);
             ClientSize = new Size(673, 450);
             Controls.Add(theOperator);
             Controls.Add(btnDiv);

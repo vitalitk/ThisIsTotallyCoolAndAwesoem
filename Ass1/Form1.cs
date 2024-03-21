@@ -20,13 +20,21 @@ namespace Ass1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Convert string to float
-            numero1 = double.Parse(leftBox.Text);
-            numero2 = double.Parse(rightBox.Text);
-            // Calculate sum of numero1 and numero2
-            sum = numero1 + numero2;
-            itsALabel.Text = sum.ToString();
-            theOperator.Text = "+";
+            try
+            {
+                // Convert string to float
+                numero1 = double.Parse(leftBox.Text);
+                numero2 = double.Parse(rightBox.Text);
+                // Calculate sum of numero1 and numero2
+                sum = numero1 + numero2;
+                itsALabel.Text = sum.ToString();
+                theOperator.Text = "+";
+            }
+            catch(Exception)
+            {
+                itsALabel.Text = "Error! Did you use valid numbers?";
+                theOperator.Text = "?!";
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -36,38 +44,64 @@ namespace Ass1
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            // Convert string to float (again)
-            numero1 = double.Parse(leftBox.Text);
-            numero2 = double.Parse(rightBox.Text);
+            try
+            {
+                // Convert string to float (again)
+                numero1 = double.Parse(leftBox.Text);
+                numero2 = double.Parse(rightBox.Text);
 
-            // Calculate subtraction of numero1 and numero2
-            sum = numero1 - numero2;
-            itsALabel.Text = sum.ToString();
-            theOperator.Text = "-";
+                // Calculate subtraction of numero1 and numero2
+                sum = numero1 - numero2;
+                itsALabel.Text = sum.ToString();
+                theOperator.Text = "-";
+            }
+            catch (Exception)
+            {
+                itsALabel.Text = "Error! Did you use valid numbers?";
+                theOperator.Text = "?!";
+            }
         }
 
         private void btnMult_Click(object sender, EventArgs e)
         {
             // Convert string to float yet again
-            numero1 = double.Parse(leftBox.Text);
-            numero2 = double.Parse(rightBox.Text);
+            try
+            {
+                numero1 = double.Parse(leftBox.Text);
+                numero2 = double.Parse(rightBox.Text);
+                sum = numero1 * numero2;
+                itsALabel.Text = sum.ToString();
+                theOperator.Text = "*";
+            }
+            catch (Exception)
+            {
+                // Handles errors in case of the user being a smartass
+                // ya gei
+                itsALabel.Text = "Error! Did you use valid numbers?";
+                theOperator.Text = "?!";
+            }
 
             //Calculate multiplication of numero1 and numero2
-            sum = numero1 * numero2;
-            itsALabel.Text = sum.ToString();
-            theOperator.Text = "*";
         }
 
         private void btnDiv_Click(object sender, EventArgs e)
         {
-            // oh my god
-            numero1 = double.Parse(leftBox.Text);
-            numero2 = double.Parse(rightBox.Text);
+            try
+            {
+                // oh my god
+                numero1 = double.Parse(leftBox.Text);
+                numero2 = double.Parse(rightBox.Text);
 
-            // divide
-            sum = numero1 / numero2;
-            itsALabel.Text = sum.ToString();
-            theOperator.Text = "/";
+                // divide
+                sum = numero1 / numero2;
+                itsALabel.Text = sum.ToString();
+                theOperator.Text = "/";
+            }
+            catch(Exception)
+            {
+                itsALabel.Text = "Error! Did you use valid numbers?";
+                theOperator.Text = "?!";
+            }
         }
     }
 }
